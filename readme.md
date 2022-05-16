@@ -1,17 +1,17 @@
 # LeNet_Pytorch
-
+This is just a part of my computer vision world.
 <img src="./testImg/lenet.jpg">
 
-32*32像素的训练结果，对于特征较为明显的车、青蛙、飞机具有较好的识别作用。
+The training results of 32 * 32 pixels have a good recognition effect on cars, frogs and aircraft with obvious features.
 
 <img src="./testImg/frog1.jpg">
 
-但对于鸟、狗、猫这类的具有模糊边界的物体识别，误识别率较低。
+However, for objects with fuzzy boundaries such as birds, dogs and cats, the false recognition rate is low.
 
 <img src="./testImg/dog1.jpg" ><br>
 
-**即细节纹理特征参数不足，仅能通过模糊的轮廓进行识别。
-主要原因则是网络的训练与输入限制为32 x 32像素，丢失了细节信息， 不足以支撑更加详细的类别判断。**
+**That is, the detailed texture feature parameters are insufficient and can only be recognized by fuzzy contour.
+The main reason is that the training and input of the network is limited to 32 x 32 pixels, and the detailed information
+is lost, which is not enough to support more detailed category judgment.**
 
-对于传统的计算机图像处理而言，这种方法在20世纪90年代，仍具有相当强的指导意义。
-sss
+For traditional computer image processing, this method still has strong guiding significance in the 1990s.
